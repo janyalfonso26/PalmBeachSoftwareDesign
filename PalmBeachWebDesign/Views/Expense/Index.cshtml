@@ -1,0 +1,194 @@
+﻿@model IEnumerable<PalmBeachWebDesign.Models.Expense.ExpenseReportVM>
+
+@{
+    ViewBag.Title = "Manage Expenses";
+}
+
+@Styles.Render("~/Content/jqxGrid")
+@Scripts.Render("~/bundles/jqxGrid")
+
+<div id="expenses-container">
+
+<div class="form-group col-12">                 
+                @Html.ActionLink("Add Expense", "Manage", new { controller = "Expense" }, new { @class = "btn btn-info pull-left", role = "button" })
+</div>   
+  <div class="form-group col-12">  
+    <table class="table-bordered">
+        <tr>
+            <td class="text-center" style="font-weight: bold; font-size: 14px;">Expenses</td>
+        </tr>
+        <tr>
+            <td>
+                <div id="expenses-grid">
+                </div>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class="hidden">
+        <button id="update-expense" type='button' href='#' class='update-expense btn btn-default btn-xs badge'
+                title='Update'>
+            <span class='glyphicon glyphicon-edit'></span>
+        </button>
+        <button id="delete-expense" type='button' href='#' class='delete-expense btn btn-default btn-xs badge'
+                title='Remove'>
+            <span class='glyphicon glyphicon-remove'></span>
+        </button>
+    </div>
+</div>
+
+<div id="expenses-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+
+        $(document).off('click', '.update-expense');
+        $(document).on('click', '.update-expense', function (e) {
+            var expenseId = $(this).attr('rel');
+            $.ajax({
+                url: '@Url.Action("Manage", "Expense")',
+                data: { id: expenseId },
+                cache: false,
+                type: 'GET',
+                beforeSend: function () {
+                    ShowSpinner();
+                },
+                success: function (response) {
+                    HideSpinner();
+                    var modalWindow = $('#expenses-modal');
+                    modalWindow.find('.modal-body').html(response);
+                    modalWindow.modal({
+                        show: true,
+                        backdrop: 'static',
+                        keyboard: false
+                    });
+                    modalWindow.draggable({
+                        handle: ".modal-header"
+                    });
+                    toastr.info("Information updated successfuly");
+                },
+                error: function () {
+                    HideSpinner();
+                    toastr.error("Oops, an error occurred, please try again...");
+                }
+            });
+            e.preventDefault();
+        });
+
+        $(document).off('click', '.delete-expense');
+        $(document).on('click', '.delete-expense', function (e) {
+            var expenseId = $(this).attr('rel');
+            bootbox.confirm('Are you sure you want to delete this item?', function (res) {
+                if (res) {   
+                    $.ajax({
+                        cache: false,
+                        type: 'POST',
+                        url: '@Url.Action("Delete", "Expense")',
+                        data: { id: expenseId},
+                        beforeSend: function () {
+                           ShowSpinner();
+                        },
+                        success: function (response) {
+                            HideSpinner();
+                            $("#expenses-container").replaceWith(response);                            
+                        },
+                        error: function () {
+                          toastr.error('Oops, sorry an unexpected error occurred on our website. The website administrator has been notified.');
+                          HideSpinner();
+                        }
+                    });
+                    e.preventDefault();
+                }
+            });
+            
+        });
+
+
+        var createlink = function(row, column, value) {
+
+            var id = value;
+
+            $('.hidden #delete-expense').attr('rel', id);
+
+            $('.hidden #update-expense').attr('rel', id);
+
+            var html = $('.hidden #delete-expense')[0].outerHTML + " |" + $('.hidden #update-expense')[0].outerHTML;
+
+            return html;
+        };
+
+        var data = $.parseJSON('@Html.Raw(Json.Encode(Model))');
+
+        var source =
+        {
+            datatype: "json",
+            localdata: data,
+            datafields: [
+                { name: 'ExpenseId', type: 'int' },
+                { name: 'CustomerName', type: 'string' },
+                { name: 'Date', type: 'date' },
+                { name: 'ProjectName', type: 'string' },
+                { name: 'Description', type: 'string' },
+                { name: 'Amount', type: 'float' }
+            ],
+            pagesize: 20,
+        };
+        var dataAdapter = new $.jqx.dataAdapter(source);
+        $("#expenses-grid").jqxGrid(
+        {
+            width: 1200,
+            source: dataAdapter,
+            pageable: true,
+            theme: 'energyblue',
+            columnsresize: true,
+            sortable: true,
+            filterable: true,
+            showfilterrow: true,
+            autoshowfiltericon: false,
+            autorowheight: true,
+            pagermode: 'simple',
+            autoheight: true,
+            selectionmode: 'singlerow',
+            columns: [
+                { text: 'Actions', datafield: 'ExpenseId', width: 87, cellsrenderer: createlink },
+                { text: 'Customer Name', datafield: 'CustomerName', width: 305 },
+                { text: 'Date', datafield: 'Date', width: 100, cellsformat: 'MM/dd/yyyy' },
+                { text: 'Project Name', datafield: 'ProjectName', width: 209 },
+                { text: 'Description', datafield: 'Description', width: 400 },
+                { text: 'Amount', datafield: 'Amount', width: 100 }
+            ]
+        });
+    });
+</script>
+
+<style type="text/css">
+    .update-expense {
+        background-color: #00bfff;
+        margin: 2px 0 0 6px;
+    }
+
+    .delete-expense {
+        background-color: red;
+        margin: 2px 0 0 6px;
+    }
+
+    #lending-expense-modal .modal-dialog {
+        width: 900px;
+    }
+
+    div[role=gridcell] > div {
+        padding-left: 4px;
+        font-size: 0.9em;
+    }
+</style>

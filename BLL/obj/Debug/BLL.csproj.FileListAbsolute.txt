@@ -1,0 +1,147 @@
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll.config
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\BLL.pdb
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\DAL.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\WebActivatorEx.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\DAL.pdb
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\obj\Debug\BLL.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\BLL\obj\Debug\BLL.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll.config
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\DAL.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\WebActivatorEx.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\DAL.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll.config
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\BLL.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\DAL.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\WebActivatorEx.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\DAL.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Helpers.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Mvc.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.Razor.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\BLL\obj\Debug\BLL.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\BLL.dll.config
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\BLL.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\BLL.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\DAL.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\EntityFramework.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Helpers.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Mvc.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Razor.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\WebActivatorEx.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\DAL.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\EntityFramework.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Helpers.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Mvc.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.Razor.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\obj\Debug\BLL.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\BLL\obj\Debug\BLL.pdb

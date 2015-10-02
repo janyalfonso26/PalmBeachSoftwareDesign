@@ -1,0 +1,108 @@
+﻿@model PalmBeachWebDesign.Models.Expense.ManageExpenseVM
+
+@{
+    ViewBag.Title = "Create Expense";    
+    Layout = null;
+}
+
+@using (Html.BeginForm("Manage", "Expense", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Edit Expense</legend>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Name*:</label>
+            <div class="col-sm-6">
+                @Html.TextBoxFor(model => model.ExpenseName, new {id = "expenseName", @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.ExpenseName)
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Date*:</label>
+            <div class="col-sm-6">
+                @Html.TextBoxFor(model => model.ExpenseDate, new {id = "Date", @class = "form-control", type = "date"})
+                @Html.ValidationMessageFor(model => model.ExpenseDate)
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Customer*:</label>
+            <div class="col-sm-6">
+
+                @Html.DropDownListFor(model => model.CustomerId, new SelectList(Model.Customers, "Value", "Text"), "Select Customer...", new {id = "customer", @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.CustomerId)
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Project*:</label>
+            <div class="col-sm-6">
+                @Html.DropDownListFor(model => model.ProjectId, new SelectList(Model.Projects, "Value", "Text"), "Select Project...", new {id = "project", @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.ProjectId)
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Amount*:</label>
+            <div class="col-sm-6">
+                @Html.TextBoxFor(model => model.Amount, new {id = "Amount", @class = "form-control", type = "number"})
+                @Html.ValidationMessageFor(model => model.Amount)
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Description:</label>
+            <div class="col-sm-6">
+                @Html.TextBoxFor(model => model.Description, new {id = "Description", @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.Description)
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2">Notes:</label>
+            <div class="col-sm-6">
+                @Html.TextAreaFor(model => model.Notes, new {id = "Notes", @class = "form-control"})
+                @Html.ValidationMessageFor(model => model.Notes)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" id="cancelBtn" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+
+    @Html.HiddenFor(m=>m.Id)
+}
+
+<script type="text/javascript">
+    $(function () {
+        $(document).off('change', '#customer');
+        $(document).on('change', '#customer', function (e) {
+            var customerId = $(this).val();
+             $.ajax({
+                url: '@Url.Action("LoadProjects", "Expense")',
+                data: { id: customerId },
+                cache: false,
+                type: 'GET',               
+                success: function (response) {
+                    $("#project").html("");
+                    $("#project").append("<option value='0'>Select Project...</option>");
+                    for (key in response)
+                        $("#project").append("<option value='" + response[key].Value + "'>" + response[key].Text + "</option>");
+                },
+                error: function () {                    
+                    toastr.error("Oops, an error occurred, please try again...");
+                }
+            });
+            e.preventDefault();
+        });
+
+        $(document).off('click', '#cancelBtn');
+        $(document).on('click', '#cancelBtn', function (e) {
+            var url = '@Url.Action("Index", "Expense")';
+            window.location.replace(url);
+            e.preventDefault();
+        });
+    });
+
+</script>

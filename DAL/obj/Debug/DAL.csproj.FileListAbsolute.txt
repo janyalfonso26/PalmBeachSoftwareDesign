@@ -1,0 +1,40 @@
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll.config
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\DAL.pdb
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\obj\Debug\DAL.dll
+C:\Users\Yoan\documents\visual studio 2015\Projects\PalmBeachWebDesign\DAL\obj\Debug\DAL.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll.config
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.pdb
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.dll
+C:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll.config
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\DAL.pdb
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.dll
+D:\Jany\PalmBeachSoftwareDesign\PalmBeachWebDesign\DAL\obj\Debug\DAL.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\DAL.dll.config
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\DAL.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\DAL.pdb
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\EntityFramework.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\EntityFramework.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\obj\Debug\DAL.dll
+D:\Jany\GitHub\PalmBeachSoftwareDesign\DAL\obj\Debug\DAL.pdb

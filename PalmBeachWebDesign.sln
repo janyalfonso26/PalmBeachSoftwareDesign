@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalmBeachWebDesign", "PalmBeachWebDesign\PalmBeachWebDesign.csproj", "{F1F1B532-0CCA-48D0-8AF1-D5B544C80B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CA24CE53-C092-4B6A-AFA6-39A43FBB7CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{87C48688-DECB-4160-9DD3-18EDF3719A57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F1B532-0CCA-48D0-8AF1-D5B544C80B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F1B532-0CCA-48D0-8AF1-D5B544C80B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F1B532-0CCA-48D0-8AF1-D5B544C80B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F1B532-0CCA-48D0-8AF1-D5B544C80B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA24CE53-C092-4B6A-AFA6-39A43FBB7CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA24CE53-C092-4B6A-AFA6-39A43FBB7CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA24CE53-C092-4B6A-AFA6-39A43FBB7CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA24CE53-C092-4B6A-AFA6-39A43FBB7CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C48688-DECB-4160-9DD3-18EDF3719A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C48688-DECB-4160-9DD3-18EDF3719A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C48688-DECB-4160-9DD3-18EDF3719A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C48688-DECB-4160-9DD3-18EDF3719A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

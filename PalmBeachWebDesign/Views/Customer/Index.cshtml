@@ -1,0 +1,12 @@
+﻿@model PalmBeachWebDesign.Models.Customer.CustomerVM
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>title</h2>
+
+@foreach (var m in Model.customers)
+{
+    <span>@m.Name</span>
+}
